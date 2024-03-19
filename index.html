@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" placeholder="0"readonly>
+        <div class="keys"id="key">
+            <button onclick="clearAll()"class="operator_button">AC</button>
+            <button onclick="Delete()"class="operator_button">DE</button>
+            <button onclick="percentage('%')"class ="operator_button">%</button>
+            <button onclick="appearText('/')"class="operator_button">/</button>
+            <button onclick="appearText('7')">7</button>
+            <button onclick="appearText('8')">8</button>
+            <button onclick="appearText('9')">9</button>
+            <button onclick="appearText('*')"class="operator_button">*</button>
+            <button onclick="appearText('4')">4</button>
+            <button onclick="appearText('5')">5</button>
+            <button onclick="appearText('6')">6</button>
+            <button onclick="appearText('-')"class="operator_button">-</button>
+            <button onclick="appearText('1')">1</button>
+            <button onclick="appearText('2')">2</button>
+            <button onclick="appearText('3')">3</button>
+            <button onclick="appearText('+')"class="operator_button">+</button>
+            <button onclick="appearText('00')">00</button>
+            <button onclick="appearText('0')">0</button>
+            <button onclick="appearText('.')">.</button>
+            <button onclick="result()"class="operator_button">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
